@@ -7,9 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface ViewController : UIViewController{
+    NSString *storage;
+    int Operation;
+    //
+    //NSString
+    //
+    //
+}
 
-@interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel *screenLabel;
 
+
+
+
+
+-(IBAction)button0;
 
 @end
 
